@@ -5,7 +5,6 @@ This project is a simple and visually engaging web page that promotes Namibia as
 ---
 
 ## 📌 Features
-
 - Responsive layout using **CSS Grid**
 - Fluid design for mobile, tablet, and PC screens
 - Highlighted sections for featured content
@@ -22,16 +21,22 @@ The core of this project’s responsiveness lies in **CSS Grid**, which was used
 
 - The `.grid-container` uses a `grid-template-columns: 1fr 1fr 1fr` layout to display articles in a **3-column layout**.
 - The `.featured` article (The first Section on the site page) spans **all 3 columns** and uses a **nested grid** to place image and text side-by-side.
+![image](https://github.com/user-attachments/assets/d39ea91e-8445-4021-9516-302bbf5d2c80)
+
 
 ### 📱 Tablet (≤ 980px)
 
 - All articles, including the `.featured` article, span all columns using `grid-column: span 3`.
 - Each article switches to a **2-column grid** layout: image and text placed side-by-side.
+![image](https://github.com/user-attachments/assets/a1a3220c-6b7f-4b16-9475-568b825bd597)
+
 
 ### 📲 Mobile (≤ 760px)
 
 - The layout switches to **block-level stacking** using `display: block`, ensuring that each article's content is stacked vertically.
 - Margins are adjusted for smaller screens to maintain readability.
+![image](https://github.com/user-attachments/assets/df0d5c90-3127-4280-ac78-9f62d77868fc)
+
 
 ---
 
